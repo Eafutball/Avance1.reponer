@@ -1,0 +1,200 @@
+/* Barra de Navegacion Superior */
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: hsl(0, 0%, 95%); /* Cambio de color de fondo */
+}
+
+/* Header Styles */
+.Encabezado {
+  background-color: #333; /* Cambio de color de fondo */
+  color: white; /* Cambio de color del texto */
+  padding: 20px; /* Aumento del padding */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  margin-right: 20px;
+}
+
+.header-right a {
+  color: white; /* Cambio de color del texto */
+  text-decoration: none;
+  padding: 10px 20px; /* Aumento del padding */
+  margin-left: 20px;
+  font-size: 16px; /* Reducción del tamaño de fuente */
+  transition: 0.3s;
+}
+
+.header-right a:hover {
+  color:  gold; /* Cambio de color de fondo */
+}
+
+/* Barra de Navegacion Superior */
+.topnav {
+  background-color: #464444; /* Cambio de color de fondo */
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: rgb(215, 202, 131); /* Cambio de color de fondo */
+}
+
+/* Categoria */
+.category {
+  margin-bottom: 60px;
+}
+
+.category h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #333;
+  text-align: center;
+}
+
+/* Blog Post */
+.blog-post {
+  background-color: white; /* Cambio de color de fondo */
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.blog-post h3 {
+  font-size: 22px; /* Aumento del tamaño de fuente */
+  margin-bottom: 10px;
+  color: #333; /* Cambio de color del texto */
+}
+
+.blog-post p {
+  line-height: 1.6; /* Ajuste del espaciado de línea */
+  margin-bottom: 20px;
+  color: #666; /* Cambio de color del texto */
+}
+
+/* Main */
+main h1{
+  text-align: center;
+  font-size: 32px; /* Aumento del tamaño de fuente */
+  color: #333; /* Cambio de color del texto */
+}
+
+
+
+.sidebar {
+  width: 25%;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.sidebar-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.Barra-Items {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #555;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: gold;
+}
+main{
+  display: flex;
+}
+#blog{
+  flex: 1;
+  margin-right: 20px;
+}
+
+
+
+/* Footer */
+footer {
+  background-color: #333; /* Cambio de color de fondo */
+  color: white;
+  padding: 40px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.footer-section {
+  flex-basis: 30%;
+}
+
+.footer-section h3 {
+  font-size: 20px; /* Aumento del tamaño de fuente */
+  margin-bottom: 15px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: gold; /* Cambio de color del texto en hover */
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 14px;
+  color: white;
+}
+
+
